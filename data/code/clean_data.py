@@ -13,8 +13,9 @@ def plot_data(df):
     plt.hist(df['chips_sold'])
     plt.savefig('output/chips_sold.pdf')
 
+# updated from NaN to nan for version compatibility issue
 def clean_data(df):
-    df['chips_sold'][df['chips_sold'] == -999999] = np.NaN
+    df['chips_sold'][df['chips_sold'] == -999999] = np.nan
     return(df)
     
 ### EXECUTE
