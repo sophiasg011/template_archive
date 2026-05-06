@@ -9,6 +9,7 @@ def main():
     df = clean_data(df)
     df.to_csv('output/data_cleaned.csv', index = False)
 
+# updated plot_data to show percentage
 def plot_data(df):
     values = df['chips_sold']   
     plt.hist(values, weights = [1/len(values)] * len(values))
