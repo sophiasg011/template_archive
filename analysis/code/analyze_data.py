@@ -17,8 +17,8 @@ def main():
 
     
     with open('output/regression.csv', 'w') as f:
-    f.write('<tab:regression>\n')
-    formatted.to_csv(f, sep='\t', index=False, header=False)
+        f.write('<tab:regression>\n')
+        formatted.to_csv(f, sep='\t', index=False, header=False)
 
     with open('output/regression_post1960.csv', 'w') as f:
         f.write('<tab:regression_post1960>\n')
