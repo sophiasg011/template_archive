@@ -11,7 +11,7 @@ def main():
 
 def plot_data(df):
     values = df['chips_sold']   
-    plt.hist(values, weight = [1/len(values)] * len(values))
+    plt.hist(values, weights = [1/len(values)] * len(values))
     plt.gca().yaxis.set_major_formatter(lambda x, _: f'{x*100:.0f}%')
     plt.savefig('output/chips_sold.pdf')
 
