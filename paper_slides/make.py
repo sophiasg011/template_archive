@@ -41,9 +41,11 @@ gs.get_modified_sources(PATHS, inputs + externals)
 gs.write_version_logs(PATHS)
 
 ### FILL TABLES
-gs.tablefill(template = 'code/tables.tex', 
-             inputs   = 'input/regression.csv', 
-             output   = 'output/tables_filled.tex')
+gs.tablefill(
+    template='code/tables.tex',
+    inputs=['input/regression.csv', 'input/regression_post1960.csv'],
+    output='output/tables_filled.tex'
+)
 
 ### RUN SCRIPTS
 gs.run_latex(PATHS, program = 'code/paper.tex')
