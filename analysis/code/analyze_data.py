@@ -5,12 +5,23 @@ from linearmodels import PanelOLS
 ### DEFINE
 def main():
     df = import_data()
+
+    # full sample regression
     fit = run_regression(df)
     formatted = format_model(fit)
+
+    # post 1960 regression
+    df_post1960 = df[df['year'] >= 1960]
+    fit_post1960 = run_regression(df_post1960)
+    formatted_post1960 = format_model(fit_post1960)
+
     
     with open('output/regression.csv', 'w') as f:
         f.write('<tab:regression>' + '\n')
         formatted.to_csv(f, sep = '\t', index = False, header = False)
+
+        f.write('<tab:regression_post1960>\n')
+        formatted_post1960.to_csv(f, sep='\t', index=False, header=False)
     
 def import_data():
     df = pd.read_csv('input/data_cleaned.csv')
