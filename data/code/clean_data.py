@@ -9,8 +9,11 @@ def main():
     df = clean_data(df)
     df.to_csv('output/data_cleaned.csv', index = False)
 
+# updated plot_data to show percentage
 def plot_data(df):
-    plt.hist(df['chips_sold'])
+    values = df['chips_sold']   
+    plt.hist(values, weights = [1/len(values)] * len(values))
+    plt.gca().yaxis.set_major_formatter(lambda x, _: f'{x*100:.0f}%')
     plt.savefig('output/chips_sold.pdf')
 
 # updated from NaN to nan for version compatibility issue
