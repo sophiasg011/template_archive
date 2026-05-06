@@ -10,7 +10,9 @@ def main():
     df.to_csv('output/data_cleaned.csv', index = False)
 
 def plot_data(df):
-    plt.hist(df['chips_sold'])
+    values = df['chips_sold']   
+    plt.hist(values, weight = [1/len(values)] * len(values))
+    plt.gca().yaxis.set_major_formatter(lambda x, _: f'{x*100:.0f}%')
     plt.savefig('output/chips_sold.pdf')
 
 # updated from NaN to nan for version compatibility issue
