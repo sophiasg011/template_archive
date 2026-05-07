@@ -1,16 +1,14 @@
 --------------------------------------------------------------------------------
-Makelog started: 2026-05-06 10:10:30
+Makelog started: 2026-05-07 14:42:26
 Working directory: C:\Users\siche\template_archive\analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
-WARNING! The following target files have been modified according to git status:
-C:\Users\siche\template_archive\data\output\data_cleaned.csv
 Version logs successfully written!
 Executing command: `python  "C:\Users\siche\template_archive\analysis\code\analyze_data.py" `
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2026-05-06 10:10:59
+Makelog ended: 2026-05-07 14:42:49
 Working directory: C:\Users\siche\template_archive\analysis
 --------------------------------------------------------------------------------

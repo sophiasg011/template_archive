@@ -1,3 +1,4 @@
 destination | source
 input\regression.csv | C:\Users\siche\template_archive\analysis\output\regression.csv
+input\regression_post1960.csv | C:\Users\siche\template_archive\analysis\output\regression_post1960.csv
 input\chips_sold.pdf | C:\Users\siche\template_archive\data\output\chips_sold.pdf

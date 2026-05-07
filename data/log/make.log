@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Makelog started: 2026-05-06 10:09:58
+Makelog started: 2026-05-07 14:41:57
 Working directory: C:\Users\siche\template_archive\data
 --------------------------------------------------------------------------------
 Input links successfully created!
@@ -21,6 +21,6 @@ WARNING! Certain files tracked by git exceed the config size limit (0.5 MB). See
 C:\Users\siche\template_archive\data\output\data_cleaned.csv
 C:\Users\siche\template_archive\data\output\data_merged.csv
 --------------------------------------------------------------------------------
-Makelog ended: 2026-05-06 10:10:24
+Makelog ended: 2026-05-07 14:42:21
 Working directory: C:\Users\siche\template_archive\data
 --------------------------------------------------------------------------------
