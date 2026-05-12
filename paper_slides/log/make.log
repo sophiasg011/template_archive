@@ -1,57 +1,271 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-10-20 17:56:09
-Working directory: /Users/shiqiyang/Documents/github_folders/template/paper_slides
+Makelog started: 2026-05-11 13:40:41
+Working directory: C:\Users\siche\template_archive\paper_slides
 --------------------------------------------------------------------------------
 Input copies successfully created!
 External copies successfully created!
 Source logs successfully written!
 WARNING! The following target files have been modified according to git status:
-/Users/shiqiyang/Documents/github_folders/template/data/output/chips_sold.pdf
+C:\Users\siche\template_archive\data\output\chips_sold.pdf
 Version logs successfully written!
-Executing command: `lyx -e pdf2 "/Users/shiqiyang/Documents/github_folders/template/paper_slides/code/paper.lyx"`
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+Executing command: `pdflatex -output-directory=..\latex_auxiliary_dir  "C:\Users\siche\template_archive\paper_slides\code\paper.tex"`
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(./paper.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./paper.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
+(c:/Users/siche/template_archive/paper_slides/code/paper.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+(c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/base/size12.clo))
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/latin9.def))
+(c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/float/float.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(c:/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/bm.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/sectsty/sectsty.sty
 
-Executing command: `lyx -e pdf2 "/Users/shiqiyang/Documents/github_folders/template/paper_slides/code/online_appendix.lyx"`
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./online_appendix.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./online_appendix.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
 
-Executing command: `lyx -e pdf2 "/Users/shiqiyang/Documents/github_folders/template/paper_slides/code/slides.lyx"`
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./slides.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
- restricted \write18 enabled.
-entering extended mode
-(./slides.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
 
-Output logs successfully written!
---------------------------------------------------------------------------------
-Makelog ended: 2023-10-20 17:56:20
-Working directory: /Users/shiqiyang/Documents/github_folders/template/paper_slides
---------------------------------------------------------------------------------
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (c:/texlive/2026/texmf-dist/tex/latex/datetime/datetime.sty
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(c:/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+(c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fcnumparser.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/datetime/datetime-defaults.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty)))
+(c:/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+(c:/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
+(c:/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/times.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+(c:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+
+LaTeX Warning: Unused global option(s):
+    [hyperfootnotes].
+
+No file paper.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/grfext/grfext.sty
+(c:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/omlztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/omsztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+pdfTeX warning (Object streams): \pdfobjcompresslevel > 0 requires PDF-1.5 or g
+reater. Object streams disabled now.
+[1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
+6/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] (./figures.tex) [4 <..\latex
+_auxiliary_dir/../input/chips_sold.pdf>]
+(..\latex_auxiliary_dir/../output/tables_filled.tex) [5] [6]
+(..\latex_auxiliary_dir/paper.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)<c:/texlive/2026/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:
+/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ..\latex_auxiliary_dir/paper.pdf (6 pages, 52891 bytes).
+Transcript written on ..\latex_auxiliary_dir/paper.log.
+
+Executing command: `pdflatex -output-directory=..\latex_auxiliary_dir  "C:\Users\siche\template_archive\paper_slides\code\online_appendix.tex"`
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(c:/Users/siche/template_archive/paper_slides/code/online_appendix.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+(c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/base/size12.clo))
+(c:/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/latin9.def))
+(c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/float/float.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (c:/texlive/2026/texmf-dist/tex/latex/anysize/anysize.sty
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
+) (c:/texlive/2026/texmf-dist/tex/latex/datetime/datetime.sty
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(c:/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+(c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fcnumparser.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/fmtcount/fc-english.def))
+(c:/texlive/2026/texmf-dist/tex/latex/datetime/datetime-defaults.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))))
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/times.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+(c:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+(c:/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
+(c:/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file online_appendix.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=664.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-15.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+No file online_appendix.lot.
+No file online_appendix.lof.
+[1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
+6/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+(..\latex_auxiliary_dir/online_appendix.aux) )<c:/texlive/2026/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ..\latex_auxiliary_dir/online_appendix.pdf (1 page, 33991 byt
+es).
+Transcript written on ..\latex_auxiliary_dir/online_appendix.log.
+

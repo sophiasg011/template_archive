@@ -1,24 +1,26 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-10-20 17:55:53
-Working directory: /Users/shiqiyang/Documents/github_folders/template/data
+Makelog started: 2026-05-11 13:39:48
+Working directory: C:\Users\siche\template_archive\data
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
 Version logs successfully written!
-Executing command: `python  "/Users/shiqiyang/Documents/github_folders/template/data/code/merge_data.py" `
-Executing command: `python  "/Users/shiqiyang/Documents/github_folders/template/data/code/clean_data.py" `
-/Users/shiqiyang/Documents/github_folders/template/data/code/clean_data.py:17: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
+Executing command: `python  "C:\Users\siche\template_archive\data\code\merge_data.py" `
+Executing command: `python  "C:\Users\siche\template_archive\data\code\clean_data.py" `
+C:\Users\siche\template_archive\data\code\clean_data.py:18: ChainedAssignmentError: A value is being set on a copy of a DataFrame or Series through chained assignment.
+Such chained assignment never works to update the original DataFrame or Series, because the intermediate object on which we are setting values always behaves as a copy (due to Copy-on-Write).
 
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  df['chips_sold'][df['chips_sold'] == -999999] = np.NaN
+Try using '.loc[row_indexer, col_indexer] = value' instead, to perform the assignment in a single step.
+
+See the documentation for a more detailed explanation: https://pandas.pydata.org/pandas-docs/stable/user_guide/copy_on_write.html#chained-assignment
+  df['chips_sold'][df['chips_sold'] == -999999] = np.nan
 
 Output logs successfully written!
 WARNING! Certain files tracked by git exceed the config size limit (0.5 MB). See below for list of files.
-/Users/shiqiyang/Documents/github_folders/template/data/output/data_merged.csv
-/Users/shiqiyang/Documents/github_folders/template/data/output/data_cleaned.csv
+C:\Users\siche\template_archive\data\output\data_cleaned.csv
+C:\Users\siche\template_archive\data\output\data_merged.csv
 --------------------------------------------------------------------------------
-Makelog ended: 2023-10-20 17:56:00
-Working directory: /Users/shiqiyang/Documents/github_folders/template/data
+Makelog ended: 2026-05-11 13:40:14
+Working directory: C:\Users\siche\template_archive\data
 --------------------------------------------------------------------------------
